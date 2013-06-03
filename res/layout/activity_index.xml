@@ -9,8 +9,19 @@
     tools:context=".Index" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/prueba_aplicacion" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ingrese Su Solicitud"
+        android:textSize="20sp" />
 
+     <ListView
+         android:id="@+id/listaSimple"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+    </ListView>
+    
 </RelativeLayout>
