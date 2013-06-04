@@ -16,12 +16,5 @@
         android:layout_centerHorizontal="true"
         android:text="Ingrese Su Solicitud"
         android:textSize="20sp" />
-
-     <ListView
-         android:id="@+id/listaSimple"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content" >
-
-    </ListView>
     
 </RelativeLayout>
