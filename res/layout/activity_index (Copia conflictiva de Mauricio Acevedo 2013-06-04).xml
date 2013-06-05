@@ -16,13 +16,5 @@
         android:layout_centerHorizontal="true"
         android:text="Ingrese Su Solicitud"
         android:textSize="20sp" />
-
-     <Spinner
-         android:id="@+id/spinner"
-         android:layout_width="fill_parent"
-         android:layout_height="wrap_content"
-         android:layout_below="@+id/textView1"
-         android:layout_centerHorizontal="true"
-         android:prompt="@string/spinner_title" />
     
 </RelativeLayout>
