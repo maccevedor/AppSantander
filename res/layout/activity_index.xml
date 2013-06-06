@@ -24,5 +24,104 @@
          android:layout_below="@+id/textView1"
          android:layout_centerHorizontal="true"
          android:prompt="@string/spinner_title" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/spinner"
+         android:layout_alignRight="@+id/spinner"
+         android:layout_below="@+id/spinner"
+         android:ems="10"
+         android:hint="Descripción de Solicitud"
+         android:inputType="textMultiLine" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText1"
+         android:layout_alignRight="@+id/editText1"
+         android:layout_below="@+id/editText1"
+         android:hint="Adjuntar Información"
+         android:text="Archivo" />
+
+     <CheckBox
+         android:id="@+id/checkBox1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/button1"
+         android:layout_alignRight="@+id/button1"
+         android:layout_below="@+id/button1"
+         android:hint="Bloquea los campos de sus datos"
+         android:text="Anónimo" />
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/checkBox1"
+         android:layout_alignRight="@+id/checkBox1"
+         android:layout_below="@+id/checkBox1"
+         android:ems="10"
+         android:hint="Nombre Completo"
+         android:inputType="textPersonName"
+          >
+	
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/editText3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText2"
+         android:layout_alignRight="@+id/editText2"
+         android:layout_below="@+id/editText2"
+         android:ems="10"
+         android:hint="Teléfono"
+         android:inputType="phone" />
+
+     <EditText
+         android:id="@+id/editText4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText3"
+         android:layout_alignRight="@+id/editText3"
+         android:layout_below="@+id/editText3"
+         android:ems="10"
+         android:hint="Email"
+         android:inputType="textEmailAddress" />
+
+     <EditText
+         android:id="@+id/editText5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText4"
+         android:layout_below="@+id/editText4"
+         android:ems="10"
+         android:hint="Dirección"
+         android:inputType="textPostalAddress" />
+
+     <Button
+         android:id="@+id/button2"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/editText5"
+         android:layout_alignRight="@+id/editText4"
+         android:layout_alignTop="@+id/editText5"
+         android:layout_toRightOf="@+id/editText5"
+         android:hint="Busque la Dirección"
+         android:text="Mapa" />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editText5"
+         android:layout_alignRight="@+id/button2"
+         android:layout_below="@+id/editText5"
+         android:text="Button" />
     
 </RelativeLayout>
