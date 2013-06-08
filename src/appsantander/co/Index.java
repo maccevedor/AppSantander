@@ -29,15 +29,14 @@ public class Index extends Activity implements OnItemSelectedListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
-        
-        // Spinner element
-        
+
     	addListenerOnCheckBox();
-    	
     	// LLama a una clase que se encarga de verificar el Checkbox
     	
-    	
-    	
+    	btnShowLocation = (Button) findViewById(R.id.btnShowLocation);
+    	//llama el Gps
+    
+        // Spinner element	
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         
         // Spinner click listener
